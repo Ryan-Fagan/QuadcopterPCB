@@ -2922,7 +2922,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 105.41) (xy 125.73 105.41)
+			(xy 121.92 105.41) (xy 132.08 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2992,7 +2992,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 87.63) (xy 78.74 92.71)
+			(xy 78.74 81.28) (xy 78.74 92.71)
 		)
 		(stroke
 			(width 0)
@@ -3172,7 +3172,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 102.87) (xy 125.73 102.87)
+			(xy 121.92 102.87) (xy 132.08 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3270,6 +3270,16 @@
 		)
 		(uuid "407edec7-fd54-4b16-9a73-83ded1f992ce")
 	)
+	(label "GSDA"
+		(at 179.07 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "41a3967a-9253-4468-8e05-ebbfedd435b2")
+	)
 	(label "RF_In"
 		(at 149.86 125.73 180)
 		(effects
@@ -3281,24 +3291,14 @@
 		(uuid "41efb0ad-b6d6-4d00-8383-7d1e98d0fbdb")
 	)
 	(label "GSCl"
-		(at 184.15 113.03 270)
+		(at 186.69 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "49338271-9795-4480-b845-bca83821d295")
-	)
-	(label "GSDA"
-		(at 176.53 120.65 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cf5ed267-cb1b-4da3-8720-f5237b95b75c")
+		(uuid "9ac3ee00-ce1c-4fb7-bdf2-75790c1dee99")
 	)
 	(hierarchical_label "GPS_RX"
 		(shape input)
@@ -3606,7 +3606,7 @@
 				)
 			)
 		)
-		(property "Value" "27uH"
+		(property "Value" "27u"
 			(at 157.734 123.698 0)
 			(effects
 				(font
@@ -3990,7 +3990,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "478e87f9-785f-4922-bcbe-ab8547d4f70c")
-		(property "Reference" "J2"
+		(property "Reference" "Antenna"
 			(at 67.31 91.1467 0)
 			(effects
 				(font
@@ -4044,7 +4044,7 @@
 		(instances
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/72d226a8-57b5-4a0d-a5b2-83ff93ab3be7"
-					(reference "J2")
+					(reference "Antenna")
 					(unit 1)
 				)
 			)
@@ -4058,7 +4058,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "610880a7-8f7b-4fd4-a715-a5331c85b8b5")
 		(property "Reference" "#PWR023"
 			(at 180.34 102.87 0)
@@ -4070,7 +4069,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 180.34 93.98 0)
+			(at 180.34 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4860,7 +4859,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100n"
 			(at 243.84 114.2999 0)
 			(effects
 				(font
@@ -4996,7 +4995,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100n"
 			(at 207.01 74.93 0)
 			(effects
 				(font
@@ -5057,7 +5056,7 @@
 		(dnp no)
 		(uuid "b735acf9-d99c-4647-8468-a71bdad7d5c4")
 		(property "Reference" "R2"
-			(at 125.222 89.408 90)
+			(at 125.222 89.154 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5065,7 +5064,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 128.524 89.408 90)
+			(at 128.524 89.154 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5587,7 +5586,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 186.436 74.93 0)
 			(effects
 				(font
@@ -5730,7 +5729,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100n"
 			(at 196.85 74.93 0)
 			(effects
 				(font

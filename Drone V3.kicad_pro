@@ -449,72 +449,6 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
-        },
-        {
-          "group_by": false,
-          "label": "LCSC",
-          "name": "LCSC",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Process",
-          "name": "Process",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Class",
-          "name": "Class",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Device",
-          "name": "Sim.Device",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Type",
-          "name": "Sim.Type",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Minimum Qty",
-          "name": "Minimum Qty",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Stock",
-          "name": "Stock",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Attrition Qty",
-          "name": "Attrition Qty",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Category",
-          "name": "Category",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Part",
-          "name": "Part",
-          "show": false
         }
       ],
       "filter_string": "",
@@ -561,7 +495,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "C:/Users/ryanf/Downloads/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",

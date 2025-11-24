@@ -3156,7 +3156,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N5820"
+		(property "Value" "SS34"
 			(at 188.214 71.374 90)
 			(effects
 				(font

@@ -1112,146 +1112,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C_US"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_US"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "capacitor, US symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_US_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.032 -1.27)
-					(mid 0 -0.5572)
-					(end 2.032 -1.27)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_US_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 3.302)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:L"
 			(pin_numbers
 				(hide yes)
@@ -3664,226 +3524,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_JLCPCB-Diodes:TVS-Uni,SMBJ33A"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 2.032 0.834 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SMBJ33A"
-				(at 2.032 -1.2122 0)
-				(effects
-					(font
-						(size 0.8 0.8)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "PCM_JLCPCB:D_SMB"
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312280935_hongjiacheng-SMBJ33A_C19077586.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "11.26A 600W 53.3V 36.7V Unidirectional 33V SMB ESD and Surge Protection (TVS/ESD) ROHS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C19077586"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Stock" "50509"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Price" "0.046USD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Process" "SMT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Minimum Qty" "5"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Attrition Qty" "2"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Class" "Preferred Component"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Category" "TVS/Fuse/Board Level Protection,Electrostatic And Surge Protection (TVS/ESD)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "hongjiacheng"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Part" "SMBJ33A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TVS-Uni,SMBJ33A_0_1"
-				(polyline
-					(pts
-						(xy -1.905 -1.905) (xy -1.27 -1.27) (xy 1.27 -1.27) (xy 1.905 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy 0 -1.27) (xy 1.27 1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TVS-Uni,SMBJ33A_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Regulator_Switching:XL1509-12"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4908,7 +4548,7 @@
 		)
 		(uuid "8bfca67f-7d77-44fc-a65f-acf92cb47ea2")
 	)
-	(text "Max Drain Output: 4A\nSwitching Time: 170nS\nMaximum Frequency: 5.88MHz"
+	(text "Drain Output (MAX): 4A\nSwitching Time: 170nS\nMaximum Frequency: 5.88MHz"
 		(exclude_from_sim no)
 		(at 353.822 46.736 0)
 		(effects
@@ -4992,7 +4632,7 @@
 		)
 		(uuid "d4d5298a-3888-4fc5-ad04-a46e42cba7d8")
 	)
-	(text "Max Voltage Drop: 0.03V\nDissipation: 1.5W (7.13°)"
+	(text "Voltage Drop (MAX): 0.03V\nDissipation: 1.5W (7.13°)"
 		(exclude_from_sim no)
 		(at 354.33 57.15 0)
 		(effects
@@ -5023,7 +4663,7 @@
 		)
 		(uuid "e607a2f5-b17c-45a3-868d-024a4fc69e7a")
 	)
-	(text "LEDs\n    5mA x 2"
+	(text "LEDs\n     15mA x 2"
 		(exclude_from_sim no)
 		(at 176.784 76.2 0)
 		(effects
@@ -5081,12 +4721,6 @@
 		(uuid "111b296e-e837-4908-986e-6f570a78a374")
 	)
 	(junction
-		(at 210.82 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1281bb83-ea6d-4bb7-9bff-4aee711aabb6")
-	)
-	(junction
 		(at 304.8 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5105,22 +4739,10 @@
 		(uuid "193c1707-3bc6-49ae-8f91-f40aeed6252e")
 	)
 	(junction
-		(at 210.82 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1c6bb0dd-0e73-4d5c-93f4-72484adaa33f")
-	)
-	(junction
 		(at 308.61 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1f59bfc7-0df6-4786-8b2e-07002bf91ca1")
-	)
-	(junction
-		(at 318.77 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "24abc8ec-cdec-4fce-9a04-134c554e825d")
 	)
 	(junction
 		(at 81.28 50.8)
@@ -5153,16 +4775,22 @@
 		(uuid "2e4e1a2a-f4ea-4282-88d1-960f47e8d37a")
 	)
 	(junction
+		(at 210.82 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3932e11b-cf5a-4e77-ba61-cdfe8b68dc4c")
+	)
+	(junction
 		(at 304.8 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3f9e63cc-f7a5-47d4-b4b5-8d463e171e19")
 	)
 	(junction
-		(at 318.77 166.37)
+		(at 210.82 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "42933828-c5bd-4ff3-b92b-bf52a1e4cfbb")
+		(uuid "4136de5c-3c40-4e57-a7ee-16798374281b")
 	)
 	(junction
 		(at 123.19 66.04)
@@ -5291,12 +4919,6 @@
 		(uuid "80018959-4c9f-4f58-a993-6d5c4324698f")
 	)
 	(junction
-		(at 318.77 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "857e4fba-2343-47aa-b55b-ca2b1dcf9915")
-	)
-	(junction
 		(at 219.71 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5307,6 +4929,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88e55dfa-bc27-4e53-a571-ea6f226f235b")
+	)
+	(junction
+		(at 210.82 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89c33233-3064-4a4a-a7e6-bf77c6a9927e")
 	)
 	(junction
 		(at 69.85 50.8)
@@ -5325,12 +4953,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9af96c1d-3d8c-4fbe-9886-ae4632f823dd")
-	)
-	(junction
-		(at 318.77 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9c288dcd-85c7-48c7-a680-54aacee6b01e")
 	)
 	(junction
 		(at 121.92 173.99)
@@ -5411,12 +5033,6 @@
 		(uuid "c4573579-c0ec-4cb9-8b88-17b6721817b9")
 	)
 	(junction
-		(at 318.77 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ca146ad3-0fde-424a-ac6b-30fa41c8020d")
-	)
-	(junction
 		(at 172.72 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5465,12 +5081,6 @@
 		(uuid "e4e4b463-73e8-4e89-8364-78fde1c14336")
 	)
 	(junction
-		(at 210.82 166.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e5c5eeec-8e0c-4038-ae47-98cfbe13412f")
-	)
-	(junction
 		(at 314.96 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5481,12 +5091,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f222acf6-353f-4347-83c7-f94ec8f6ccd9")
-	)
-	(junction
-		(at 318.77 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f4b01b81-ed16-4caf-8d81-ba1b4ddb00b3")
 	)
 	(junction
 		(at 278.13 66.04)
@@ -5672,23 +5276,13 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 166.37) (xy 318.77 166.37)
+			(xy 314.96 166.37) (xy 323.85 166.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0c5172af-2f67-476a-9f57-51fd2b6261ea")
-	)
-	(wire
-		(pts
-			(xy 318.77 175.26) (xy 318.77 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d16f56c-607a-4aa9-b554-23b64111dda3")
 	)
 	(wire
 		(pts
@@ -5732,16 +5326,6 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 45.72) (xy 318.77 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10ca8ddc-1362-410c-8811-86c6f8bb99d1")
-	)
-	(wire
-		(pts
 			(xy 303.53 130.81) (xy 278.13 130.81)
 		)
 		(stroke
@@ -5769,6 +5353,16 @@
 			(type default)
 		)
 		(uuid "13d9a2f4-419e-48f5-869b-50e5feceaca2")
+	)
+	(wire
+		(pts
+			(xy 210.82 166.37) (xy 219.71 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "147b61ef-ede7-484f-b964-f0c9316f541e")
 	)
 	(wire
 		(pts
@@ -5809,6 +5403,16 @@
 			(type default)
 		)
 		(uuid "174bf2cb-8339-4fa1-b9af-3a8cffb3b541")
+	)
+	(wire
+		(pts
+			(xy 210.82 36.83) (xy 219.71 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17905605-7b8e-4823-8109-cbf1fb8c2ba7")
 	)
 	(wire
 		(pts
@@ -5892,6 +5496,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 101.6) (xy 219.71 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f8a4274-7dd2-49c1-bcb7-a19359c15b70")
+	)
+	(wire
+		(pts
 			(xy 128.27 62.23) (xy 128.27 68.58)
 		)
 		(stroke
@@ -5912,7 +5526,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 101.6) (xy 318.77 101.6)
+			(xy 314.96 101.6) (xy 323.85 101.6)
 		)
 		(stroke
 			(width 0)
@@ -6102,16 +5716,6 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 101.6) (xy 210.82 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31078a0c-1af3-40fe-b09b-1c43b8fa4345")
-	)
-	(wire
-		(pts
 			(xy 171.45 40.64) (xy 180.34 40.64)
 		)
 		(stroke
@@ -6162,16 +5766,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 36.83) (xy 219.71 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "376a9073-0f19-4e28-82d1-2385dda4a2b2")
-	)
-	(wire
-		(pts
 			(xy 304.8 101.6) (xy 304.8 102.87)
 		)
 		(stroke
@@ -6212,7 +5806,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 36.83) (xy 318.77 36.83)
+			(xy 314.96 36.83) (xy 323.85 36.83)
 		)
 		(stroke
 			(width 0)
@@ -6229,16 +5823,6 @@
 			(type default)
 		)
 		(uuid "3d161418-5e3d-4f3c-950b-ce0b039b0da9")
-	)
-	(wire
-		(pts
-			(xy 318.77 166.37) (xy 318.77 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d83b3cf-509e-46c9-9d45-6c3275007284")
 	)
 	(wire
 		(pts
@@ -6492,16 +6076,6 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 36.83) (xy 318.77 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5032f01c-d55e-4fe2-a7e3-6167550fe65d")
-	)
-	(wire
-		(pts
 			(xy 44.45 43.18) (xy 58.42 43.18)
 		)
 		(stroke
@@ -6669,16 +6243,6 @@
 			(type default)
 		)
 		(uuid "5faf3b05-0789-4711-a907-8279210e7d5d")
-	)
-	(wire
-		(pts
-			(xy 318.77 110.49) (xy 318.77 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fb0f197-8c64-4b5e-b2db-bb89cc78c66a")
 	)
 	(wire
 		(pts
@@ -6889,16 +6453,6 @@
 			(type default)
 		)
 		(uuid "6ed865d2-c5d6-4c89-adec-e036783777f7")
-	)
-	(wire
-		(pts
-			(xy 318.77 48.26) (xy 349.25 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f1d31df-efb2-464e-97d6-39bfe5d2a955")
 	)
 	(wire
 		(pts
@@ -7172,16 +6726,6 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 166.37) (xy 323.85 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85b3508e-ad74-4507-91b7-9398725f8c11")
-	)
-	(wire
-		(pts
 			(xy 110.49 173.99) (xy 121.92 173.99)
 		)
 		(stroke
@@ -7262,7 +6806,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 113.03) (xy 318.77 113.03)
+			(xy 304.8 113.03) (xy 349.25 113.03)
 		)
 		(stroke
 			(width 0)
@@ -7432,16 +6976,6 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 177.8) (xy 349.25 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "995c62ee-b283-4452-a576-8c5cda5ef82c")
-	)
-	(wire
-		(pts
 			(xy 66.04 81.28) (xy 69.85 81.28)
 		)
 		(stroke
@@ -7472,7 +7006,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 48.26) (xy 318.77 48.26)
+			(xy 304.8 48.26) (xy 349.25 48.26)
 		)
 		(stroke
 			(width 0)
@@ -7602,16 +7136,6 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 101.6) (xy 318.77 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a502e7db-84ab-47db-89ba-638cd374fbed")
-	)
-	(wire
-		(pts
 			(xy 303.53 198.12) (xy 303.53 195.58)
 		)
 		(stroke
@@ -7692,7 +7216,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 177.8) (xy 318.77 177.8)
+			(xy 304.8 177.8) (xy 349.25 177.8)
 		)
 		(stroke
 			(width 0)
@@ -7739,16 +7263,6 @@
 			(type default)
 		)
 		(uuid "afb722cf-e9b7-447a-8abe-22b1fa8432de")
-	)
-	(wire
-		(pts
-			(xy 318.77 113.03) (xy 349.25 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0a9f537-002e-41eb-9620-5927df78909e")
 	)
 	(wire
 		(pts
@@ -7972,16 +7486,6 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 101.6) (xy 323.85 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3c6db6e-9e60-48bc-b9f5-07c2ec623efa")
-	)
-	(wire
-		(pts
 			(xy 199.39 109.22) (xy 210.82 109.22)
 		)
 		(stroke
@@ -8009,16 +7513,6 @@
 			(type default)
 		)
 		(uuid "c70286bd-3774-48dd-a25f-6b15f951ee62")
-	)
-	(wire
-		(pts
-			(xy 318.77 36.83) (xy 323.85 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9e556d0-17b3-4959-891a-1e999a3bd90c")
 	)
 	(wire
 		(pts
@@ -8282,16 +7776,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 166.37) (xy 219.71 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd2e06e4-a6e9-464b-b540-d1115e34333b")
-	)
-	(wire
-		(pts
 			(xy 121.92 173.99) (xy 129.54 173.99)
 		)
 		(stroke
@@ -8352,7 +7836,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 101.6) (xy 219.71 101.6)
+			(xy 199.39 101.6) (xy 210.82 101.6)
 		)
 		(stroke
 			(width 0)
@@ -9967,7 +9451,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1n"
+		(property "Value" "22n"
 			(at 336.55 76.2 0)
 			(effects
 				(font
@@ -10150,6 +9634,75 @@
 			(project ""
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 210.82 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "126baa90-7b5c-4563-95d0-2c3dbb49cc21")
+		(property "Reference" "C24"
+			(at 213.614 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 213.614 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 211.7852 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 210.82 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d8e0051-5959-4350-9bf1-a20924f0811f")
+		)
+		(pin "2"
+			(uuid "82922b69-1b4d-49fc-817a-144e54774916")
+		)
+		(instances
+			(project "Drone V3"
+				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -10860,6 +10413,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 210.82 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2d15721d-3331-40b6-a6c0-87cd72d7010c")
+		(property "Reference" "C23"
+			(at 213.614 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 213.614 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 211.7852 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 210.82 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4716609d-a65f-45d4-9a2b-f871ee930f87")
+		)
+		(pin "2"
+			(uuid "cfda4f68-015e-480e-bfc8-95dbcbc13fc6")
+		)
+		(instances
+			(project "Drone V3"
+				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 260.35 58.42 90)
 		(unit 1)
@@ -11014,7 +10636,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "22n"
 			(at 317.5 162.56 0)
 			(effects
 				(font
@@ -11075,7 +10697,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ad65330-550a-4b32-842b-158229c3c6b1")
-		(property "Reference" "Q4"
+		(property "Reference" "NMOS4"
 			(at 281.94 121.9199 0)
 			(effects
 				(font
@@ -11084,7 +10706,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "HYG025N06LS1C2"
 			(at 281.94 124.4599 0)
 			(effects
 				(font
@@ -11159,7 +10781,7 @@
 		(instances
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
-					(reference "Q4")
+					(reference "NMOS4")
 					(unit 1)
 				)
 			)
@@ -11183,7 +10805,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "22n"
 			(at 317.5 97.79 0)
 			(effects
 				(font
@@ -11229,165 +10851,6 @@
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "C25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_JLCPCB-Diodes:TVS-Uni,SMBJ33A")
-		(at 318.77 171.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4ec3ce26-6fe6-469b-92de-8d422ff88f6b")
-		(property "Reference" "D13"
-			(at 321.31 170.434 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMBJ33A"
-			(at 321.31 172.9741 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:D_SMB"
-			(at 316.992 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312280935_hongjiacheng-SMBJ33A_C19077586.pdf"
-			(at 318.77 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "11.26A 600W 53.3V 36.7V Unidirectional 33V SMB ESD and Surge Protection (TVS/ESD) ROHS"
-			(at 318.77 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C19077586"
-			(at 318.77 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "50509"
-			(at 318.77 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.046USD"
-			(at 318.77 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 318.77 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "5"
-			(at 318.77 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "2"
-			(at 318.77 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Preferred Component"
-			(at 318.77 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "TVS/Fuse/Board Level Protection,Electrostatic And Surge Protection (TVS/ESD)"
-			(at 318.77 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "hongjiacheng"
-			(at 318.77 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "SMBJ33A"
-			(at 318.77 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c43ec5fd-cf3c-41b7-81c9-20ee4970f910")
-		)
-		(pin "1"
-			(uuid "06b02bdc-6181-493e-a598-eeab42b5ecef")
-		)
-		(instances
-			(project "Drone V3"
-				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
-					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -11540,6 +11003,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 110.49 179.07 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5961b4c0-1b80-4700-9fe7-a3072a67e36b")
+		(property "Reference" "C29"
+			(at 115.316 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470u"
+			(at 116.078 177.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.5248 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 110.49 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab559895-5bfb-42a2-9fcc-0de3f9bdec84")
+		)
+		(pin "2"
+			(uuid "3e0bf3ad-e5b4-4c1e-bdff-230078dc20e8")
+		)
+		(instances
+			(project "Drone V3"
+				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
+					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Driver_FET:IRS21867S")
 		(at 229.87 114.3 0)
 		(unit 1)
@@ -11638,14 +11169,14 @@
 		(dnp no)
 		(uuid "5f495550-3839-43bf-8e8e-c49e129272da")
 		(property "Reference" "R22"
-			(at 324.866 133.604 90)
+			(at 323.85 133.604 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "220"
 			(at 328.676 133.604 90)
 			(effects
 				(font
@@ -12058,7 +11589,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "220"
 			(at 330.2 34.544 90)
 			(effects
 				(font
@@ -12194,7 +11725,7 @@
 				)
 			)
 		)
-		(property "Value" "18k"
+		(property "Value" "47k"
 			(at 274.066 193.548 90)
 			(effects
 				(font
@@ -12328,7 +11859,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "220"
 			(at 330.2 99.314 90)
 			(effects
 				(font
@@ -12464,7 +11995,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "220"
 			(at 330.2 164.084 90)
 			(effects
 				(font
@@ -12736,7 +12267,7 @@
 				)
 			)
 		)
-		(property "Value" "18k"
+		(property "Value" "47k"
 			(at 274.066 64.008 90)
 			(effects
 				(font
@@ -12811,7 +12342,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 162.56 78.74 0)
 			(effects
 				(font
@@ -13302,7 +12833,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0dfbb2f-2cd4-4d1a-96d2-a133f30d39a9")
-		(property "Reference" "Q1"
+		(property "Reference" "NMOS1"
 			(at 281.94 36.8299 0)
 			(effects
 				(font
@@ -13311,7 +12842,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "HYG025N06LS1C2"
 			(at 281.94 39.3699 0)
 			(effects
 				(font
@@ -13386,7 +12917,7 @@
 		(instances
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
-					(reference "Q1")
+					(reference "NMOS1")
 					(unit 1)
 				)
 			)
@@ -13469,7 +13000,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3baa0b5-6c6a-43d1-b022-6371dc65f787")
-		(property "Reference" "Q2"
+		(property "Reference" "NMOS2"
 			(at 281.94 57.1499 0)
 			(effects
 				(font
@@ -13478,7 +13009,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "HYG025N06LS1C2"
 			(at 281.94 59.6899 0)
 			(effects
 				(font
@@ -13553,7 +13084,7 @@
 		(instances
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
-					(reference "Q2")
+					(reference "NMOS2")
 					(unit 1)
 				)
 			)
@@ -13576,7 +13107,7 @@
 				)
 			)
 		)
-		(property "Value" "18k"
+		(property "Value" "47k"
 			(at 274.066 128.778 90)
 			(effects
 				(font
@@ -13775,14 +13306,14 @@
 		(dnp no)
 		(uuid "bd31e14f-2235-432b-b15d-caa2c68ece95")
 		(property "Reference" "R29"
-			(at 324.866 198.374 90)
+			(at 323.85 198.374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "220"
 			(at 328.676 198.374 90)
 			(effects
 				(font
@@ -13911,14 +13442,14 @@
 		(dnp no)
 		(uuid "c0b103a1-8970-4741-8131-640d6018ec97")
 		(property "Reference" "R15"
-			(at 324.866 68.834 90)
+			(at 323.85 68.834 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "220"
 			(at 328.676 68.834 90)
 			(effects
 				(font
@@ -14125,165 +13656,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_JLCPCB-Diodes:TVS-Uni,SMBJ33A")
-		(at 318.77 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c4494b41-bfe5-4df0-936f-76a7b41b9f9c")
-		(property "Reference" "D11"
-			(at 321.31 105.664 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMBJ33A"
-			(at 321.31 108.2041 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:D_SMB"
-			(at 316.992 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312280935_hongjiacheng-SMBJ33A_C19077586.pdf"
-			(at 318.77 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "11.26A 600W 53.3V 36.7V Unidirectional 33V SMB ESD and Surge Protection (TVS/ESD) ROHS"
-			(at 318.77 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C19077586"
-			(at 318.77 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "50509"
-			(at 318.77 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.046USD"
-			(at 318.77 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 318.77 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "5"
-			(at 318.77 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "2"
-			(at 318.77 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Preferred Component"
-			(at 318.77 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "TVS/Fuse/Board Level Protection,Electrostatic And Surge Protection (TVS/ESD)"
-			(at 318.77 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "hongjiacheng"
-			(at 318.77 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "SMBJ33A"
-			(at 318.77 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c1ef0c92-c092-433a-8c8f-cc39b4c41ddb")
-		)
-		(pin "1"
-			(uuid "ae41cbe7-4578-4d8f-bcd5-57c0203a99a1")
-		)
-		(instances
-			(project "Drone V3"
-				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
-					(reference "D11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 247.65 96.52 0)
 		(unit 1)
@@ -14429,7 +13801,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c71bc56d-11cf-4222-84da-40c1dbc69009")
-		(property "Reference" "Q3"
+		(property "Reference" "NMOS3"
 			(at 281.94 101.5999 0)
 			(effects
 				(font
@@ -14438,7 +13810,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "HYG025N06LS1C2"
 			(at 281.94 104.1399 0)
 			(effects
 				(font
@@ -14513,76 +13885,7 @@
 		(instances
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_US")
-		(at 170.18 170.18 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c9146ad5-934b-486b-83e1-518518ca8f68")
-		(property "Reference" "C45"
-			(at 177.546 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "180u"
-			(at 178.562 168.656 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 170.18 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "capacitor, US symbol"
-			(at 170.18 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2422cba9-d1b6-45de-8344-746687530320")
-		)
-		(pin "1"
-			(uuid "539d953d-aaf9-4d29-8e7d-78ae7086bc27")
-		)
-		(instances
-			(project "Drone V3"
-				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
-					(reference "C45")
+					(reference "NMOS3")
 					(unit 1)
 				)
 			)
@@ -14683,7 +13986,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 260.35 110.998 90)
 			(effects
 				(font
@@ -14743,7 +14046,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1n"
+		(property "Value" "22n"
 			(at 336.55 140.97 0)
 			(effects
 				(font
@@ -14804,7 +14107,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d36e0ede-3f03-4a3d-9f95-ed56c98c97f7")
-		(property "Reference" "Q6"
+		(property "Reference" "NMOS6"
 			(at 281.94 186.6899 0)
 			(effects
 				(font
@@ -14813,7 +14116,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "HYG025N06LS1C2"
 			(at 281.94 189.2299 0)
 			(effects
 				(font
@@ -14888,7 +14191,7 @@
 		(instances
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
-					(reference "Q6")
+					(reference "NMOS6")
 					(unit 1)
 				)
 			)
@@ -15102,75 +14405,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_US")
-		(at 110.49 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d915cef9-997f-4172-a713-cf5b8d97825e")
-		(property "Reference" "C43"
-			(at 112.776 178.054 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "470u"
-			(at 112.776 180.594 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "capacitor, US symbol"
-			(at 110.49 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c248e904-c882-4085-8632-ce164a8df93c")
-		)
-		(pin "1"
-			(uuid "b8f9afcf-98e8-4b14-8b91-fcfb3eb0469f")
-		)
-		(instances
-			(project "Drone V3"
-				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
-					(reference "C43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 81.28 67.31 90)
 		(unit 1)
@@ -15240,6 +14474,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 170.18 170.18 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d9d0b51a-9fd0-4114-87cd-5b507f1ec98c")
+		(property "Reference" "C40"
+			(at 175.768 169.418 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "180u"
+			(at 175.006 172.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.1452 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 170.18 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0b99731-c7dc-45f8-930a-bb5c508f193a")
+		)
+		(pin "2"
+			(uuid "e2f46000-b7f0-487b-96fb-7783094f59b5")
+		)
+		(instances
+			(project "Drone V3"
+				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
+					(reference "C40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 314.96 31.75 0)
 		(unit 1)
@@ -15257,7 +14559,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "22n"
 			(at 317.5 33.02 0)
 			(effects
 				(font
@@ -15400,7 +14702,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 162.56 72.39 0)
 			(effects
 				(font
@@ -15452,75 +14754,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 210.82 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e296aaf8-4514-4a14-93a1-e7b60bf55f9a")
-		(property "Reference" "C21"
-			(at 213.36 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 213.36 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 211.7852 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 210.82 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 210.82 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bb98164c-3527-4100-828b-bf60fd7a63ae")
-		)
-		(pin "2"
-			(uuid "121cd6ee-462d-4e10-b8cd-819668856f77")
-		)
-		(instances
-			(project "Drone V3"
-				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
-					(reference "C21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 334.01 204.47 0)
 		(unit 1)
@@ -15538,7 +14771,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1n"
+		(property "Value" "22n"
 			(at 336.55 205.74 0)
 			(effects
 				(font
@@ -15887,165 +15120,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_JLCPCB-Diodes:TVS-Uni,SMBJ33A")
-		(at 318.77 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ee67be00-6d42-4287-a61f-8120fc4c5a9e")
-		(property "Reference" "D9"
-			(at 321.31 40.894 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMBJ33A"
-			(at 321.31 43.4341 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:D_SMB"
-			(at 316.992 41.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312280935_hongjiacheng-SMBJ33A_C19077586.pdf"
-			(at 318.77 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "11.26A 600W 53.3V 36.7V Unidirectional 33V SMB ESD and Surge Protection (TVS/ESD) ROHS"
-			(at 318.77 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C19077586"
-			(at 318.77 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "50509"
-			(at 318.77 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.046USD"
-			(at 318.77 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 318.77 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "5"
-			(at 318.77 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "2"
-			(at 318.77 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Preferred Component"
-			(at 318.77 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "TVS/Fuse/Board Level Protection,Electrostatic And Surge Protection (TVS/ESD)"
-			(at 318.77 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "hongjiacheng"
-			(at 318.77 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "SMBJ33A"
-			(at 318.77 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e9075012-6400-4614-8189-31e17dacb052")
-		)
-		(pin "1"
-			(uuid "4a51c84c-f05a-4f58-8d65-fdc4f7ce1d78")
-		)
-		(instances
-			(project ""
-				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
-					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
 		(at 275.59 167.64 0)
 		(unit 1)
@@ -16055,7 +15129,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f00309cb-5c64-4271-b2aa-64d7505ffd88")
-		(property "Reference" "Q5"
+		(property "Reference" "NMOS5"
 			(at 281.94 166.3699 0)
 			(effects
 				(font
@@ -16064,7 +15138,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "HYG025N06LS1C2"
 			(at 281.94 168.9099 0)
 			(effects
 				(font
@@ -16139,7 +15213,7 @@
 		(instances
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
-					(reference "Q5")
+					(reference "NMOS5")
 					(unit 1)
 				)
 			)
@@ -16230,7 +15304,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N5820"
+		(property "Value" "SS34"
 			(at 156.464 171.704 90)
 			(effects
 				(font
@@ -16351,75 +15425,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 210.82 170.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f5929421-6df5-49fd-8d26-08aca5c6f5f4")
-		(property "Reference" "C29"
-			(at 213.36 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 213.36 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 211.7852 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 210.82 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 210.82 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "400f45dc-e33c-4cb5-a3ec-47cac28c479a")
-		)
-		(pin "2"
-			(uuid "3f855ec8-67b9-40ef-8ad4-6b36201812fe")
-		)
-		(instances
-			(project "Drone V3"
-				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
-					(reference "C29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 170.18 83.82 90)
 		(unit 1)
@@ -16487,16 +15492,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 210.82 40.64 0)
+		(lib_id "Device:C")
+		(at 210.82 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "fe17c190-f2a4-45f6-8348-8757800dd39d")
-		(property "Reference" "C42"
-			(at 213.36 39.37 0)
+		(uuid "fd6f9ea0-416b-4d03-ac13-fd245f340478")
+		(property "Reference" "C21"
+			(at 213.614 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16505,7 +15510,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 213.36 41.91 0)
+			(at 213.614 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16514,7 +15519,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 211.7852 44.45 0)
+			(at 211.7852 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16523,7 +15528,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 210.82 40.64 0)
+			(at 210.82 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16531,8 +15536,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
-			(at 210.82 40.64 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 210.82 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16541,15 +15546,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "13c34790-df38-4527-87e5-e59fb6fa2972")
+			(uuid "cfb59e4d-86ba-45fb-880b-11bff42a4e97")
 		)
 		(pin "2"
-			(uuid "83917129-ab06-4895-9b68-7a52f1a334b9")
+			(uuid "d351c75f-48b5-4337-91fc-4a5019d64334")
 		)
 		(instances
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
-					(reference "C42")
+					(reference "C21")
 					(unit 1)
 				)
 			)

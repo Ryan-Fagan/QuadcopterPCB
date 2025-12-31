@@ -3990,7 +3990,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "478e87f9-785f-4922-bcbe-ab8547d4f70c")
-		(property "Reference" "Antenna"
+		(property "Reference" "Antenna1"
 			(at 67.31 91.1467 0)
 			(effects
 				(font
@@ -4044,7 +4044,7 @@
 		(instances
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/72d226a8-57b5-4a0d-a5b2-83ff93ab3be7"
-					(reference "Antenna")
+					(reference "Antenna1")
 					(unit 1)
 				)
 			)

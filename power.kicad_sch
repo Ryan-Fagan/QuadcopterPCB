@@ -2096,16 +2096,16 @@
 		(uuid "8d30e79f-ef63-49ed-82bc-30cf1e782a19")
 	)
 	(junction
+		(at 95.25 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "930bcbc1-506c-4522-b645-7d2824b8453e")
+	)
+	(junction
 		(at 106.68 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c5fbd03-b97e-46de-aa9b-de2739a0d030")
-	)
-	(junction
-		(at 95.25 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9d468744-bde2-4bea-96c9-5b32b64bde1b")
 	)
 	(junction
 		(at 53.34 116.84)
@@ -2589,16 +2589,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 109.22) (xy 105.41 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99745848-e43e-4597-b26c-862bde77f943")
-	)
-	(wire
-		(pts
 			(xy 62.23 78.74) (xy 62.23 73.66)
 		)
 		(stroke
@@ -2646,6 +2636,16 @@
 			(type default)
 		)
 		(uuid "c36d54d9-3691-4bb5-bbbc-7ab6647a84f4")
+	)
+	(wire
+		(pts
+			(xy 95.25 109.22) (xy 105.41 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c44f2383-009c-4c4f-9b57-5dc79a1f2e30")
 	)
 	(wire
 		(pts
@@ -3165,7 +3165,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
+		(property "Footprint" "easyeda2kicad:SMA_L4.3-W2.6-LS5.2-RD"
 			(at 191.135 69.85 0)
 			(effects
 				(font
@@ -4247,7 +4247,7 @@
 				)
 			)
 		)
-		(property "Value" "270"
+		(property "Value" "1k"
 			(at 118.618 116.586 90)
 			(effects
 				(font
@@ -4441,10 +4441,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9761316c-4b9b-4c26-9281-1bec468e109a")
+		(uuid "98cbf182-e60b-4c60-b244-ac7e8362f76f")
 		(property "Reference" "D6"
-			(at 97.79 104.4574 90)
+			(at 96.774 104.394 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4452,8 +4451,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N5820"
-			(at 97.79 106.9974 90)
+		(property "Value" "SS34"
+			(at 96.774 106.934 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4461,7 +4460,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
+		(property "Footprint" "easyeda2kicad:SMA_L4.3-W2.6-LS5.2-RD"
 			(at 99.695 105.41 0)
 			(effects
 				(font
@@ -4489,13 +4488,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "5a1f334d-ec6e-47ed-8d88-c1af91631af9")
+			(uuid "f9b04024-f173-412b-a7f0-7df9a3618b00")
 		)
 		(pin "1"
-			(uuid "af4ccfb7-3ea9-4fd9-ba25-8d7128d796eb")
+			(uuid "a95d0eca-6b16-43f0-b28f-669d93614aa7")
 		)
 		(instances
-			(project ""
+			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/d145bcf3-ead3-4bb6-b36d-e03e7e63efd9"
 					(reference "D6")
 					(unit 1)
@@ -4579,7 +4578,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6d7a57d-1fb6-4fa7-bc12-e9247d9230f4")
-		(property "Reference" "12V_SD"
+		(property "Reference" "12V_SD2"
 			(at 171.45 66.04 0)
 			(effects
 				(font
@@ -4649,7 +4648,7 @@
 		(instances
 			(project ""
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/d145bcf3-ead3-4bb6-b36d-e03e7e63efd9"
-					(reference "12V_SD")
+					(reference "12V_SD2")
 					(unit 1)
 				)
 			)
@@ -5077,7 +5076,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c655e865-67a8-4a56-a813-10e487a0deb4")
-		(property "Reference" "5V_SD"
+		(property "Reference" "5V_SD1"
 			(at 83.82 101.6 0)
 			(effects
 				(font
@@ -5085,7 +5084,7 @@
 				)
 			)
 		)
-		(property "Value" "XL1509-12"
+		(property "Value" "XL1509-5"
 			(at 83.82 104.14 0)
 			(effects
 				(font
@@ -5093,7 +5092,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "easyeda2kicad:SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL"
 			(at 83.82 103.378 0)
 			(effects
 				(font
@@ -5147,7 +5146,7 @@
 		(instances
 			(project ""
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/d145bcf3-ead3-4bb6-b36d-e03e7e63efd9"
-					(reference "5V_SD")
+					(reference "5V_SD1")
 					(unit 1)
 				)
 			)
@@ -5170,7 +5169,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "220"
 			(at 107.188 86.106 90)
 			(effects
 				(font
@@ -5230,7 +5229,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d22bd522-848b-4bc4-acd0-8aa633c9ecd5")
-		(property "Reference" "3.3V_SD"
+		(property "Reference" "3.3V_SD1"
 			(at 76.2 66.04 0)
 			(effects
 				(font
@@ -5294,7 +5293,7 @@
 		(instances
 			(project ""
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/d145bcf3-ead3-4bb6-b36d-e03e7e63efd9"
-					(reference "3.3V_SD")
+					(reference "3.3V_SD1")
 					(unit 1)
 				)
 			)
@@ -5386,7 +5385,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "5k"
 			(at 204.978 83.82 90)
 			(effects
 				(font

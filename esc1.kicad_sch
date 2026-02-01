@@ -8368,6 +8368,16 @@
 		)
 		(uuid "49ef22bb-3032-4412-829f-8b07cff87e53")
 	)
+	(label "C_Shunt"
+		(at 279.4 195.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4bbd059c-ab08-43fd-b0f5-f16cc9d46036")
+	)
 	(label "+12V"
 		(at 207.01 101.6 180)
 		(effects
@@ -8868,6 +8878,16 @@
 		)
 		(uuid "b88c9815-8a94-414d-b5cd-0c7e2f5bd7c3")
 	)
+	(label "B_Shunt"
+		(at 279.4 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bb5d957e-c355-4c4c-994c-074171f87cf1")
+	)
 	(label "-3V3MCU"
 		(at 171.45 72.39 0)
 		(effects
@@ -9027,6 +9047,16 @@
 			(justify right bottom)
 		)
 		(uuid "e887a690-b1db-4ec6-a037-6a8af46c9e51")
+	)
+	(label "A_Shunt"
+		(at 279.4 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea172792-fd79-4f34-9cf8-91c8ece88c21")
 	)
 	(label "-3V3MCU"
 		(at 53.34 38.1 180)

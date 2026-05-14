@@ -1,0 +1,89 @@
+(footprint "Untitled"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "Battery In"
+		(at 0.25 4.25 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d6dfae32-b0cc-4413-9b38-4a6a7aabf146")
+		(effects
+			(font (size 1 1) (thickness 0.1))
+		)
+	)
+	(property "Value" "BatIn"
+		(at 0 6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c1978c80-819d-421c-a721-16100a29d912")
+		(effects
+			(font (size 1 1) (thickness 0.15))
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8fc2c1d8-4eb9-4931-bedf-f0a5c4c67ff7")
+		(effects
+			(font (size 1 1) (thickness 0.15))
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "116ae8ba-fc49-4f65-8056-1f02dc078857")
+		(effects
+			(font (size 1 1) (thickness 0.15))
+		)
+	)
+	(attr smd)
+	(fp_text user "-"
+		(at 6.25 4.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0006fd7b-a456-4816-ac80-04421e12197d")
+		(effects
+			(font (size 1 1) (thickness 0.1))
+			(justify right bottom)
+		)
+	)
+	(fp_text user "+"
+		(at -6.25 4.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3323d6e5-8107-413c-b4b5-7c351d78ff71")
+		(effects
+			(font (size 1 1) (thickness 0.1))
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 7.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f5d75a6e-e7e1-46a3-b0f1-26f724cf1113")
+		(effects
+			(font (size 1 1) (thickness 0.15))
+		)
+	)
+	(pad "1" smd roundrect
+		(at -5.5 0)
+		(size 6.4525 6.635)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "cf8d05d2-f978-499d-81c6-a9e9afd12905")
+	)
+	(pad "2" smd roundrect
+		(at 5.5 0)
+		(size 6.4525 6.635)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "e8b43141-1adb-4280-a0b4-7e7e79b81d85")
+	)
+	(embedded_fonts no)
+)

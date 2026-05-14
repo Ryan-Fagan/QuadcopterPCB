@@ -1,0 +1,184 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "65b9e708-3625-42c6-86f8-1e22f48701a3")
+	(paper "A4")
+	(lib_symbols)
+	(global_label "GND"
+		(shape input)
+		(at 127 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0020e268-d9cf-4b78-85ea-9b8162bc75e1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 133.8557 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3.3V"
+		(shape input)
+		(at 127 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "135b4469-e65c-45d7-a6cf-9b16421ca676")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.67 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CLK"
+		(shape input)
+		(at 106.68 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "60ef3133-f697-442d-8523-b65d9b98439c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 100.1267 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Data1"
+		(shape input)
+		(at 106.68 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "66b920e2-485c-40d7-850f-494ed57fde12")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 98.1916 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Data2"
+		(shape input)
+		(at 106.68 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "98072df8-c01f-41f2-8cc0-4c0ccc57e8b9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 98.1916 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CMD"
+		(shape input)
+		(at 106.68 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a19532b9-9ccb-48b5-b6f0-ecba087cbeb0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 99.7034 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Data0"
+		(shape input)
+		(at 106.68 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aa3ac7f8-57f1-44ab-9f23-1eb555d80692")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 98.1916 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Data3"
+		(shape input)
+		(at 106.68 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ca642458-91fe-4ec5-8e68-0a28226c9d13")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 98.1916 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+)

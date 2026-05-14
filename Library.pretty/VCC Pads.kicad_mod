@@ -1,0 +1,109 @@
+(footprint "VCC Pads"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "VCC Pads"
+		(at 0.25 -5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1e91685c-72b1-49a5-bd7f-5ebced935f96")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "VCC Pads"
+		(at 0 5.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "de8197d6-58b9-43e0-8510-9ab0c02b60fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b829c27c-a504-49f2-9d91-75d52d23df26")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a248d1b4-764a-48bf-a6bc-a3fb2b5c014d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "+"
+		(at -7 -4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "04e3fa87-797e-4dd4-9df6-5d647b391398")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "-"
+		(at 5.5 -4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1096eca2-098f-4ce3-a571-ba044e7ed022")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c55aea79-cd10-414a-8be3-4f41527142af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -6.25 0)
+		(size 7.5 7.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "cec6995a-f2be-4e6b-a756-eac164e9f45a")
+	)
+	(pad "2" smd circle
+		(at 6.25 0)
+		(size 7.5 7.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2cd203ab-d59e-4a44-9474-19ee9f89baac")
+	)
+	(embedded_fonts no)
+)

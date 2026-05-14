@@ -5276,6 +5276,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 50.8) (xy 101.6 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18540305-9924-47b7-9625-77f7a2747f4c")
+	)
+	(wire
+		(pts
 			(xy 44.45 30.48) (xy 58.42 30.48)
 		)
 		(stroke
@@ -5716,7 +5726,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 50.8) (xy 95.25 50.8)
+			(xy 81.28 50.8) (xy 88.9 50.8)
 		)
 		(stroke
 			(width 0)
@@ -8045,7 +8055,7 @@
 		(uuid "18e46c09-7a0a-49e8-931b-aebecf7b333f")
 	)
 	(label "VSSA"
-		(at 90.17 50.8 0)
+		(at 96.52 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8183,6 +8193,16 @@
 			(justify right bottom)
 		)
 		(uuid "475240d4-f71e-478b-b552-9a12ea7d68a4")
+	)
+	(label "+ESC"
+		(at 151.13 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4cf95900-d414-4a13-a42a-42ff14f2aeed")
 	)
 	(label "+12V"
 		(at 207.01 109.22 180)
@@ -8964,6 +8984,12 @@
 			(uuid "1fe70c7e-fd6b-4657-ae43-64c8b25b71f1")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "D12")
@@ -9033,6 +9059,12 @@
 			(uuid "4977c476-21dd-48a1-a5af-b035f83cb171")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "C20")
@@ -9103,6 +9135,12 @@
 			(uuid "3a4939e2-27be-41b4-9671-c456ed91eceb")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "C37")
@@ -9189,6 +9227,12 @@
 			(uuid "0cb8255e-6daa-4af6-ab1a-4ec11845ad9d")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "ST-Link?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "ST-Link1")
@@ -9256,6 +9300,12 @@
 			(uuid "9773a46b-3500-4685-870f-b14eda5b4a99")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "L?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "L6")
@@ -9323,6 +9373,12 @@
 			(uuid "ba0cf564-1261-4c3d-9a9e-091031ffa062")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "R30")
@@ -9393,6 +9449,12 @@
 			(uuid "5454f7f9-d282-40aa-8b81-4413d2faf9f8")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "C31")
@@ -9462,6 +9524,12 @@
 			(uuid "82922b69-1b4d-49fc-817a-144e54774916")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "C24")
@@ -9532,6 +9600,12 @@
 			(uuid "d739d60a-d144-47a2-8c43-ecaa8c581f81")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "TVS?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "TVS1")
@@ -9600,6 +9674,12 @@
 			(uuid "51178b73-80e7-4c08-83f1-8b04aa6b21e4")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "J3")
@@ -9670,6 +9750,12 @@
 			(uuid "d17ae652-43b3-46b4-8577-d5e2d30ffe0b")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "C45")
@@ -9739,6 +9825,12 @@
 			(uuid "8d626915-1bdc-4f9c-bbb7-f0f7f92c16b8")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "BOOT0_SW?")
+					(unit 1)
+				)
+			)
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "BOOT0_SW1")
@@ -9806,6 +9898,12 @@
 			(uuid "c5b95acd-47a8-4531-9673-2a965f1f81b6")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "R32")
@@ -9873,6 +9971,12 @@
 			(uuid "4fbc441c-1496-4714-9196-6c5cd989cadf")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "C26")
@@ -9941,6 +10045,12 @@
 			(uuid "e5f0c515-4ef1-4f1e-ad38-d15c3532ccd0")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "D10")
@@ -10030,6 +10140,12 @@
 			(uuid "13cab348-76be-4cba-9763-5199dc3bf919")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "U6")
@@ -10097,6 +10213,12 @@
 			(uuid "174d4d72-ea40-4c5c-bea4-ba9e1c33915c")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "R35")
@@ -10166,6 +10288,12 @@
 			(uuid "b3b74366-7521-46d9-93c6-0dba80e4d63c")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "R20")
@@ -10234,6 +10362,12 @@
 			(uuid "651bd539-439d-4251-b1c9-06defa419bb2")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "D8")
@@ -10303,6 +10437,12 @@
 			(uuid "cfda4f68-015e-480e-bfc8-95dbcbc13fc6")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "C23")
@@ -10379,6 +10519,12 @@
 			(uuid "9d1c39fc-1053-4df2-a599-a2330471a47a")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "U9")
@@ -10446,6 +10592,12 @@
 			(uuid "32690702-b520-4cec-a453-5704fd1f8689")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "R40")
@@ -10513,6 +10665,12 @@
 			(uuid "bdcd921e-9e60-4837-8c4b-0467a5eed0c4")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "R10")
@@ -10583,6 +10741,12 @@
 			(uuid "62fa941b-09c0-4894-984b-3a53ad3be2d1")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "C36")
@@ -10652,6 +10816,12 @@
 			(uuid "7f97fa8c-2773-42e9-8fa9-b7830f9aafb0")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "C49")
@@ -10721,6 +10891,12 @@
 			(uuid "3808e30d-e721-48cb-9ce8-4d9e4d6833ea")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "C43")
@@ -10821,6 +10997,12 @@
 			(uuid "c56336ab-74af-49c5-b4e0-0692da5ea830")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "NMOS?")
+					(unit 1)
+				)
+			)
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "NMOS4")
@@ -10890,6 +11072,12 @@
 			(uuid "2d3bb2b3-09ea-4203-afff-896134913d29")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "C25")
@@ -10966,6 +11154,12 @@
 			(uuid "611786ee-ef23-40f2-9b9c-b59eebdf7f37")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "D17")
@@ -11037,6 +11231,12 @@
 			(uuid "7dcc68a6-e634-497f-a26f-7b8d03a27ea9")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "J2")
@@ -11107,6 +11307,12 @@
 			(uuid "e6687350-e025-43d6-8214-ec279e1fbba1")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "C38")
@@ -11196,6 +11402,12 @@
 			(uuid "f149644f-abdd-472b-825d-51e28bbcea33")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "U1")
@@ -11266,6 +11478,12 @@
 			(uuid "dda288ca-98a1-49fd-b66a-6f9d5c5592a1")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "C33")
@@ -11334,6 +11552,12 @@
 			(uuid "5090de53-0b3d-4878-af5f-0613a9777b76")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "C30")
@@ -11403,6 +11627,12 @@
 			(uuid "003dd25b-677b-47af-8554-9da0db3d5a70")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "C42")
@@ -11472,6 +11702,12 @@
 			(uuid "efe5f385-bab9-4020-bbe7-c00d5e134e56")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "C41")
@@ -11542,6 +11778,12 @@
 			(uuid "0e76c66d-fa7b-40e1-afe2-6f5670816f73")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "C39")
@@ -11609,6 +11851,12 @@
 			(uuid "22ace877-9317-4e28-9ad1-46275907ad98")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "R36")
@@ -11678,6 +11926,12 @@
 			(uuid "4c42b68a-f456-426d-afc5-f61122cec29b")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "R28")
@@ -11745,6 +11999,12 @@
 			(uuid "26c789be-0e52-45d2-be5e-515f547cfae0")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "R29")
@@ -11812,6 +12072,12 @@
 			(uuid "ebd5c24e-d0b9-4b4a-be3c-cd92b4f3f595")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "C29")
@@ -11879,6 +12145,12 @@
 			(uuid "cbe801e3-9832-4bd0-8334-88b0259e93fd")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "R25")
@@ -11946,6 +12218,12 @@
 			(uuid "85ad62e2-1354-455b-b893-322ac60ec436")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "R37")
@@ -12013,6 +12291,12 @@
 			(uuid "dbed9b88-c033-47a9-80b0-93b67d7316da")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "R38")
@@ -12082,6 +12366,12 @@
 			(uuid "eb774c3d-a71a-4956-bb80-6dd6074696d0")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "R13")
@@ -12149,6 +12439,12 @@
 			(uuid "b6b913ba-f5b0-4335-972c-6d58e0906943")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "R22")
@@ -12218,6 +12514,12 @@
 			(uuid "945ec42e-273a-4f33-9f19-26a966ce158c")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "R27")
@@ -12285,6 +12587,12 @@
 			(uuid "bf76a6c3-306d-4029-a5b8-d8ce5abb8868")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "R11")
@@ -12361,6 +12669,12 @@
 			(uuid "dc40b7a8-609e-408a-a7ef-eb1ff149a9fa")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "D15")
@@ -12570,6 +12884,12 @@
 			(uuid "2ca6e409-8f74-43b5-b901-752f835ab9b8")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "U13")
@@ -12639,6 +12959,12 @@
 			(uuid "3f6a1a9e-74a9-4571-9290-67b04bdf1bc3")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "C40")
@@ -12728,6 +13054,12 @@
 			(uuid "c4437a70-bf19-46dd-b24c-0cd6b777c6f7")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "12V_SD?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "12V_SD1")
@@ -12797,6 +13129,12 @@
 			(uuid "db2eb593-1c7c-4b49-97fb-ce1e05d93a63")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "C27")
@@ -12873,6 +13211,12 @@
 			(uuid "19e8c1d2-73c3-431d-9c5a-7c0680abe163")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "U4")
@@ -12942,6 +13286,12 @@
 			(uuid "9d210695-2e22-421b-a745-b60dd288b7b7")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "C16")
@@ -13042,6 +13392,12 @@
 			(uuid "718d0263-092f-4293-8dc9-7acb022b8ba9")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "NMOS?")
+					(unit 1)
+				)
+			)
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "NMOS1")
@@ -13109,6 +13465,12 @@
 			(uuid "82975f02-207f-4be6-9afa-c4a807a5c790")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "R33")
@@ -13209,6 +13571,12 @@
 			(uuid "3c424ca2-c68a-415d-b7ba-af98e4675f20")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "NMOS?")
+					(unit 1)
+				)
+			)
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "NMOS2")
@@ -13276,6 +13644,12 @@
 			(uuid "650ebff4-218c-41fc-91b9-dba9baced09e")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "R18")
@@ -13345,6 +13719,12 @@
 			(uuid "9acee07c-49f6-4083-991d-323b8a1529a5")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "C15")
@@ -13415,6 +13795,12 @@
 			(uuid "2ab62f3a-9530-4e07-94b8-63ce038d4518")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "C34")
@@ -13485,6 +13871,12 @@
 			(uuid "51110036-7eb7-4be8-a90b-1d97e4161579")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "R31")
@@ -13554,6 +13946,12 @@
 			(uuid "ac3a7ede-2e92-467c-a946-b4406dc4e3a5")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "C22")
@@ -13654,6 +14052,12 @@
 			(uuid "41bd1931-d7b1-4d71-a3d3-bc962d4d2bb1")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "NMOS?")
+					(unit 1)
+				)
+			)
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "NMOS3")
@@ -13724,6 +14128,12 @@
 			(uuid "a99b775d-65e9-4d1c-a78c-9f0fad022861")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "C32")
@@ -13791,6 +14201,12 @@
 			(uuid "36fca658-dcbc-4a38-bf42-a4db62c95b6c")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "R16")
@@ -13891,6 +14307,12 @@
 			(uuid "59eefae7-021b-4e85-983e-9a5046dd5228")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "NMOS?")
+					(unit 1)
+				)
+			)
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "NMOS6")
@@ -13958,6 +14380,12 @@
 			(uuid "6429f03f-7415-4039-bf57-8d039dbb2300")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "R17")
@@ -14025,6 +14453,12 @@
 			(uuid "3309ecaf-6c2e-49fd-8e20-c3a0b8cfcb89")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "R24")
@@ -14098,6 +14532,12 @@
 			(uuid "f8b7cc24-521e-4a21-8fcc-9b0be418aa42")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "J4")
@@ -14167,6 +14607,12 @@
 			(uuid "c8f2afd7-c1c3-4155-976b-dce9e3892846")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "NRST_SW?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "NRST_SW1")
@@ -14236,6 +14682,12 @@
 			(uuid "895c3113-0f47-4070-b871-37c0c9d4f3c9")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "C19")
@@ -14303,6 +14755,12 @@
 			(uuid "372d97a0-001a-498c-b65f-091262f33e39")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "R23")
@@ -14372,6 +14830,12 @@
 			(uuid "93ffb832-4d2a-4062-9857-d8dc22ec7e42")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "R19")
@@ -14448,9 +14912,88 @@
 			(uuid "e81ced52-97dd-48bb-b7ab-6a697062e222")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 92.71 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "deab5426-2df6-4dd6-ab8e-f3e504435ae1")
+		(property "Reference" "R14"
+			(at 91.186 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 95.504 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0805"
+			(at 92.71 52.578 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 92.71 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4d8d33f3-255b-4145-87cd-7df0c69ca792")
+		)
+		(pin "1"
+			(uuid "34ea36c3-6a46-4b29-9130-7b1cb700e2f3")
+		)
+		(instances
+			(project ""
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+			(project "Drone V3"
+				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -14518,6 +15061,12 @@
 			(uuid "dfb15017-c4d5-4239-951c-dcb2889965d3")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "R39")
@@ -14587,6 +15136,12 @@
 			(uuid "403a60df-61b7-4960-aa11-c604040d08db")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "R21")
@@ -14656,6 +15211,12 @@
 			(uuid "0233bf19-0ee4-4514-b159-ee45f5327bb6")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "C28")
@@ -14726,6 +15287,12 @@
 			(uuid "af106dda-21d1-431f-88bb-bca249315dc8")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "C35")
@@ -14815,6 +15382,12 @@
 			(uuid "ab2d1ec0-a5ea-438d-ad70-b028a4be9d4f")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "U7")
@@ -14915,6 +15488,12 @@
 			(uuid "f2d0504f-c6e8-4d10-8df6-056476a87dc0")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "NMOS?")
+					(unit 1)
+				)
+			)
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "NMOS5")
@@ -14982,6 +15561,12 @@
 			(uuid "6244cbf3-8b07-4b12-b138-47d5ac20a993")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "R9")
@@ -15051,6 +15636,12 @@
 			(uuid "8e2adf69-0d1b-4e0e-9a6e-c300ed548e45")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "R26")
@@ -15120,6 +15711,12 @@
 			(uuid "82febddc-7804-4530-a32f-d560d9d51f70")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "R12")
@@ -15187,6 +15784,12 @@
 			(uuid "1894d31d-e96c-4e4a-922a-44d40aa0c076")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "R34")
@@ -15256,6 +15859,12 @@
 			(uuid "d351c75f-48b5-4337-91fc-4a5019d64334")
 		)
 		(instances
+			(project "esc1"
+				(path "/0da69a69-242a-4ba6-93fb-7dda2ef994d2"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/7f4b5bac-ad06-461a-ba4a-fd694870ce20"
 					(reference "C21")
@@ -15264,4 +15873,10 @@
 			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )

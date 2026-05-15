@@ -295,6 +295,37 @@
 			(embedded_fonts no)
 		)
 	)
+	(wire
+		(pts
+			(xy 171.45 96.52) (xy 171.45 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4518253f-0d47-4f5b-8936-070ef1d84ed1")
+	)
+	(wire
+		(pts
+			(xy 163.83 93.98) (xy 171.45 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "def5ee1a-f8a3-4be4-b4ee-36609fc96972")
+	)
+	(hierarchical_label "VDDA"
+		(shape input)
+		(at 171.45 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "26b089ff-45e7-4aa4-940a-1028f3e61b8c")
+	)
 	(symbol
 		(lib_id "Library:BM1390GLV-ZTR")
 		(at 153.67 99.06 0)

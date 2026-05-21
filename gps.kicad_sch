@@ -642,33 +642,11 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Requires 30mA Power Supply"
-		(exclude_from_sim no)
-		(at 189.738 84.582 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "eebe0e6f-7ca3-4173-91c6-fd95ac5affa6")
-	)
-	(junction
-		(at 163.83 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2ffa034b-94fd-4d32-aab8-af7cd6131be2")
-	)
 	(junction
 		(at 130.81 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "476c19ca-92fa-4967-9e19-28c06d5e0fa9")
-	)
-	(junction
-		(at 157.48 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "55d9c478-3282-4b53-a478-6a079157b1f9")
 	)
 	(junction
 		(at 129.54 85.09)
@@ -682,6 +660,14 @@
 		(color 0 0 0 0)
 		(uuid "bce4eb8d-f1fb-4ac0-a588-f8f242c36068")
 	)
+	(no_connect
+		(at 156.21 93.98)
+		(uuid "453e9bb4-9705-42c4-8ea9-4c72b4e1e188")
+	)
+	(no_connect
+		(at 156.21 96.52)
+		(uuid "f54b80e9-55cf-4190-8f71-a3ad3c2194e3")
+	)
 	(wire
 		(pts
 			(xy 130.81 91.44) (xy 130.81 95.25)
@@ -691,46 +677,6 @@
 			(type default)
 		)
 		(uuid "0d12496b-0609-4ca3-bcc8-293035a9f57c")
-	)
-	(wire
-		(pts
-			(xy 156.21 95.25) (xy 156.21 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22ad405e-401c-4a63-b76f-221ce9c357c0")
-	)
-	(wire
-		(pts
-			(xy 157.48 81.28) (xy 163.83 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2cadfbe0-85a8-4da0-8faa-aa9dfe8de13b")
-	)
-	(wire
-		(pts
-			(xy 156.21 92.71) (xy 156.21 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "355259e5-b175-4e51-aa39-b37b312fc1af")
-	)
-	(wire
-		(pts
-			(xy 156.21 95.25) (xy 163.83 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c68bc5e-3157-48bb-a951-170d22c957b8")
 	)
 	(wire
 		(pts
@@ -761,26 +707,6 @@
 			(type default)
 		)
 		(uuid "4981edc4-7dec-4ceb-b3ec-507c1e174829")
-	)
-	(wire
-		(pts
-			(xy 163.83 88.9) (xy 163.83 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a982a49-f952-4048-b2dc-8dd7bc210d57")
-	)
-	(wire
-		(pts
-			(xy 156.21 92.71) (xy 157.48 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "597dee94-df28-4f6e-a862-f9e4fdb76813")
 	)
 	(wire
 		(pts
@@ -854,16 +780,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 92.71) (xy 168.91 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92fd0f59-698d-43e5-bdc1-c5326424cab6")
-	)
-	(wire
-		(pts
 			(xy 111.76 106.68) (xy 111.76 95.25)
 		)
 		(stroke
@@ -914,16 +830,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 95.25) (xy 168.91 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d23cc4fa-ebf8-4496-9e3d-1bbba732b2af")
-	)
-	(wire
-		(pts
 			(xy 135.89 106.68) (xy 135.89 100.33)
 		)
 		(stroke
@@ -931,38 +837,6 @@
 			(type default)
 		)
 		(uuid "e16c7930-d134-44dc-9055-731e35328327")
-	)
-	(wire
-		(pts
-			(xy 157.48 85.09) (xy 157.48 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f586d72a-e508-4250-8da5-dd74cd739d6f")
-	)
-	(hierarchical_label "+3.3V"
-		(shape input)
-		(at 157.48 81.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "01b2fd86-6981-43b1-9044-448d10f414fc")
-	)
-	(hierarchical_label "GPS_SDA"
-		(shape input)
-		(at 168.91 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "19717808-2e84-499d-a08c-f629b97c4a31")
 	)
 	(hierarchical_label "GPS_TX"
 		(shape input)
@@ -1029,86 +903,6 @@
 			(justify right)
 		)
 		(uuid "ce20e9fc-9a8a-4846-9b53-e66cbf41edda")
-	)
-	(hierarchical_label "GPS_SCL"
-		(shape input)
-		(at 168.91 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "df55c358-fb63-4908-9de1-371350b0fe2e")
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 157.48 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00b1e94e-5fbc-491c-8da6-718528639cf6")
-		(property "Reference" "R5"
-			(at 158.75 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 158.75 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 155.702 88.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 157.48 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 157.48 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a48d392e-d1c7-4d7b-a0f8-bfd9f8c888dc")
-		)
-		(pin "2"
-			(uuid "f853abc9-5dd8-45a4-873e-8ef509c0ea45")
-		)
-		(instances
-			(project ""
-				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/72d226a8-57b5-4a0d-a5b2-83ff93ab3be7"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -1250,75 +1044,6 @@
 			(project "Drone V3"
 				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/72d226a8-57b5-4a0d-a5b2-83ff93ab3be7"
 					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 163.83 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6861adcd-a1ca-41c3-a609-a6c6703bbf1c")
-		(property "Reference" "R39"
-			(at 165.1 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 165.1 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 162.052 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 163.83 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 163.83 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "61887b90-764a-4de7-b959-ea9a6422b189")
-		)
-		(pin "2"
-			(uuid "3d9f666e-0e33-401a-834e-406e0d704146")
-		)
-		(instances
-			(project ""
-				(path "/6af311bf-2fb1-446c-8c7e-7c930a463809/72d226a8-57b5-4a0d-a5b2-83ff93ab3be7"
-					(reference "R39")
 					(unit 1)
 				)
 			)

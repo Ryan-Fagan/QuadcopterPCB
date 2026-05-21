@@ -759,12 +759,8 @@
       "Barometer"
     ],
     [
-      "6c3ed190-5d43-4c7e-96d7-301ae7e00faf",
-      "Mag1"
-    ],
-    [
-      "9d43ef18-89de-4818-bc23-6c030e7dd232",
-      "Mag2"
+      "b604c76c-ad52-4fa5-ab73-faf388c795e0",
+      "OpticalFlow"
     ],
     [
       "fbc732a7-6283-4cfb-8013-38c8e1d06b9d",

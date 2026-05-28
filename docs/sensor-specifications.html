@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>RTRD Sensor Specifications</title>
+</head>
+<body>
+    <header>
+        <div class="page-header">
+            <h1>RTRD Sensor Specifications</h1>
+            <p>Detailed specifications for the onboard sensors used in the real-time recording drone.</p>
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="user-manual.html">User Manual</a>
+            <a href="full-documentation.html">Full Documentation</a>
+            <a href="architecture-reference.html">Architecture Reference</a>
+            <a href="troubleshooting.html">Troubleshooting</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Sensor Specifications</h2>
+            <ul>
+                <li>Sensors must be compatible with either SPI, I2C, UART/USART, CAN, analog, or digital Interfaces</li>
+                <li>Multiple ports for each interface are available.</li>
+            </ul>
+
+            <h2>Port Voltage Specifications</h2>
+            <ul>
+                <li>SPI sensors must be compatible with only a 3.3V supply voltage.</li>
+                <li>All I2C sensors must be compatible with a 3.3V or 5V supply voltage.</li>
+                <li>UART6, UART7, and UART8 are 5V and 3.3V compatible, while all other ports are strictly 3.3V.</li>
+                <li>PF3, PF4, PF5, PF6, and PF10 are physically configurable for 5V operation, while all other analog pins are strictly 3.3V.</li>
+                <li>To configure an analog pin as 5V-compatible, look at the schematic and remove the bridge directly to the MCU and add the bridge between the voltage divider and the MCU</li>
+            </ul>
+
+            <table class="port-specs" aria-label="Port specifications">
+                <caption>Port Counts</caption>
+                <thead>
+                    <tr>
+                        <th>Interface</th>
+                        <th>Number of Ports</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>SPI</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td>I2C</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>UART / USART</td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td>CAN</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>Digital</td>
+                        <td>32</td>
+                    </tr>
+                    <tr>
+                        <td>Analog</td>
+                        <td>12</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        
+        <section>
+            <h2>Port Precautions</h2>
+            <ul>
+                <p>Currently, UART ports 4 and 5 are being used for the GPS and transceiver, respectively, so, it's perferred to not use those ports. 
+                    The same goes with SPI ports 1, 2, and 3 as they are being used for the dual IMU system, a low-speed sensor cluster of the barometer
+                    and ToF sensors, and the SD-Micro port, respectively. Though these ports can be chained, port 1 requires high speed in order
+                    for the drone to operate effectively and port 2 requires a stable flow of data to not miss any sensor logging data. The remaining ports
+                    are all open for use, but it's recommended to avoid chaining sensors such that the data rate of the bus is too high and causes data loss.<br><br>
+                    Extra GPIO ports are available for use as chip select pins for SPI sensors or other applications, but they are not required for sensor
+                    integration as each SPI port has a dedicated chip select pin. Analog pins are set up with a 12-bit ADC and support a voltage range of 
+                    0-3.3V and are used with the weak internal pull-up resistors in the MCU. Digital pins may be used for simple digital sensors, but they 
+                    do not support interrupts, so they are not recommended for time-sensitive applications. For more clarity on how ports are being used 
+                    internally, please refer to the Architecture Reference section, featuring diagrams for the schematic and PCB layouts.
+                </p>
+            </ul>
+        </section>
+
+        <section id="sensor-usage">
+            <h2>Sensor Usage</h2>
+            <ul>
+                <p>Each sensor must be initialized by using the SD Micro card file named "sensors.txt"</p>
+                <p>Here are some examples of how to initialize a sensor for each protocol:</p>
+            </ul>
+            <pre class="code-editor"><code>
+# ===================================================================
+# RESEARCH DRONE PAYLOAD INITIALIZATION CONFIGURATION
+# Lines starting with '#' are ignored by the parser.
+# Columns are strictly comma-separated.
+# ===================================================================
+
+# -------------------------------------------------------------------
+# PROTOCOL 1: UART / SERIAL DEVICE
+# -------------------------------------------------------------------
+[SENSOR]
+NAME:CO2_Sniffer
+PROTOCOL:UART
+PORT:4
+BAUDRATE:115200
+PACKET_START:0x02
+PACKET_END:0x03
+UPDATE_RATE_MS:25
+DATA_FIELDS:3
+# Format: ByteOffset,FieldName,DataType,ScaleFactor
+FIELD:0,GasDensity,FLOAT,1.0
+FIELD:4,Temperature,INT16,0.1
+FIELD:6,Error_Code,UINT8,1.0
+
+# -------------------------------------------------------------------
+# PROTOCOL 2: I2C DEVICE
+# -------------------------------------------------------------------
+[SENSOR]
+NAME:Thermal_Array
+PROTOCOL:I2C
+PORT:1
+SLAVE_ADDRESS:0x33
+REG_DATA_START:0x40
+REG_DATA_BYTES:4
+UPDATE_RATE_MS:50
+DATA_FIELDS:1
+# Format: RegOffset,FieldName,DataType,ScaleFactor
+FIELD:0x00,Matrix_Temp,FLOAT,1.0
+
+# -------------------------------------------------------------------
+# PROTOCOL 3: SPI DEVICE
+# -------------------------------------------------------------------
+[SENSOR]
+NAME:Mag_External
+PROTOCOL:SPI
+PORT:2
+CS_PIN:PD3
+SPI_MODE:3
+REG_READ_CMD:0x80
+REG_DATA_START:0x03
+REG_DATA_BYTES:6
+UPDATE_RATE_MS:10
+DATA_FIELDS:3
+# Format: ByteOffset,FieldName,DataType,ScaleFactor
+FIELD:0,Mag_X,INT16,0.15
+FIELD:2,Mag_Y,INT16,0.15
+FIELD:4,Mag_Z,INT16,0.15
+
+
+# -------------------------------------------------------------------
+# PROTOCOL 4: ANALOG DEVICE
+# -------------------------------------------------------------------
+[SENSOR]
+NAME:Air_Quality
+PROTOCOL:ANALOG
+PIN:PF3
+UPDATE_RATE_MS:100
+DATA_FIELDS:1
+# Format: FieldName,DataType,ScaleFactor
+FIELD:Air_Quality_Index,UINT16,0.1
+
+# -------------------------------------------------------------------
+# PROTOCOL 5: DIGITAL DEVICE
+# -------------------------------------------------------------------
+[SENSOR]
+NAME:Rain_Detector
+PROTOCOL:DIGITAL
+PIN:PE5
+UPDATE_RATE_MS:200
+DATA_FIELDS:1
+# Format: FieldName,DataType,ScaleFactor
+FIELD:Is_Raining,UINT8,1.0
+
+            </code></pre>
+            <ul>
+                <p>After initialization, power on the drone and begin data collection.</p>
+                <p>If a sensor fails initialization, the SD Debug LED will indicate an error by blinking once every 5 seconds.</p>
+                <p>Once collection has started, use the ground control software to monitor and analyze the collected data.</p>
+                <p>After analysis, ensure the readings are correct before deploying the drone.</p>
+                <p>After flight, all of the sensor logs can be found in the SD card's log directory at "date_time.svg"</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;For example, "22_05_26_17_45_00.svg" for a flight on May 22nd, 2026 at 5:45PM</p>
+                <p>These logs can then be offloaded into a more permanent storage for further analysis.</p>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Real-Time Recording Drone Project</p>
+    </footer>
+</body>
+</html>

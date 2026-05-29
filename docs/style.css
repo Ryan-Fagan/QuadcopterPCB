@@ -240,6 +240,28 @@ footer p {
     font-size: 0.95rem;
 }
 
+.diagram-preview {
+    margin-top: 1rem;
+    border: 1px solid rgba(15, 23, 42, 0.12);
+    border-radius: 18px;
+    padding: 1rem;
+    background: #ffffff;
+}
+
+.diagram-preview img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    border-radius: 12px;
+    margin-bottom: 0.85rem;
+}
+
+.diagram-preview p {
+    margin: 0;
+    color: #475569;
+    font-size: 0.95rem;
+}
+
 /* Table styling for port specifications */
 .port-specs {
     width: 100%;

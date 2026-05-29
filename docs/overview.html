@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>RTRD Components, Firmware, & Maintenance</title>
+</head>
+<body>
+    <header>
+        <div class="page-header">
+            <h1>RTRD Components, Firmware, & Maintenance</h1>
+            <p>Complete technical reference for the drone platform, firmware, and integration points.</p>
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="user-manual.html">User Manual</a>
+            <a href="sensor-specifications.html">Sensor Specifications</a>
+            <a href="architecture-reference.html">Architecture Reference</a>
+            <a href="troubleshooting.html">Troubleshooting</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="spaced-paragraphs">
+            <h2>System Architecture</h2>
+            <p>The RTRD platform integrates flight control, sensor acquisition, and data telemetry through a modular architecture. Each subsystem is designed for reliability and extendability.</p>
+        </section>
+
+        <section>
+            <h2>Component Diagram</h2>
+            <div class="diagram-preview">
+                <img src="Component Diagram.png" alt="Component Diagram" />
+                <p>If the diagram does not display, export <strong>Component Diagram.drawio</strong> as <strong>Component Diagram.png</strong> into this folder.</p>
+            </div>
+        </section>
+
+        <section class="spaced-paragraphs">
+            <h2>Firmware & Communication</h2>
+            <p>Firmware supports real-time telemetry over secure wireless links and logs sensor data to on-board storage. The API exposes commands for mission planning, calibration, and diagnostics.</p>
+        </section>
+
+        <section id="components">
+            <h2>Components</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <h3>STM32F427ZGT6</h3>
+                    <li>180MHz MCU with 2MB Flash and 256KB RAM.</li>
+                    <li>Handles sensor data acquisition, processing, and communication.</li>
+                    <li>Programmable using ST-Link V2.</li>
+                </div>
+                <div class="card">
+                    <h3>Adafruit PA1010D</h3>
+                    <li>Mini GPS Module with < 2.5m position accuracy.</li>
+                    <li>Supports NMEA output and PPS signal for precise timing.</li>
+                    <li>Generates precise time measurements for data logging.</li>
+                </div>
+                <div class="card">
+                    <h3>ELRS & Nomad Modules</h3>
+                    <li>2.4 GHz wireless communication modules for telemetry and control.</li>
+                    <li>Supports up to 1 km range with low latency.</li>
+                    <li>Enables real-time data transfer and control using the ground station.</li>
+                </div>
+                <div class="card">
+                    <h3>VL53L1CXV0FY</h3>
+                    <li>Time-of-Flight distance sensor with 4m measurement range.</li>
+                    <li>Provides accurate altitude detection for automatic takeoff and landing.</li>
+                </div>
+                <div class="card">
+                    <h3>BM1390GLV</h3>
+                    <li>Barometric pressure sensor with 0.1 hPa resolution.</li>
+                    <li>Used for altitude estimation and atmospheric data logging.</li>
+                </div>
+                <div class="card">
+                    <h3>Dual ICM-42670</h3>
+                    <li>6-axis Inertial Measurement Unit (IMU) with high accuracy.</li>
+                    <li>Enables autonomous landing and takeoff, stable flight.</li>
+                    <li>Fused with barometer values for enhanced altitude estimation.</li>
+                </div>
+                <div class="card">
+                    <h3>PMW3901</h3>
+                    <li>Optical flow sensor used to measure ground speed and control yaw.</li>
+                    <li>Provides visual low-altitude odometry for position maintenance.</li>
+                </div>
+                <div class="card">
+                    <h3>SD Micro</h3>
+                    <li>Enabes offline data-logging.</li>
+                    <li>Interface for sensor configuration and data acquisition.</li>
+                    <li>Compatible with FAT32 format.</li>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Imaging & Data Capture</h2>
+            <ul>
+                <li>FPV Camera (OV7670): 700TVL analog video streaming</li>
+                <li>Data Logger (SD Card): microSD storage with FAT32 support</li>
+                <li>Telemetry (ExpressLRS & Nomad Module): 2.4 GHz wireless transmit/receive at up to 1 km range</li>
+            </ul>
+        </section>
+
+        
+        <section>
+            <h2>Flight Control Firmware</h2>
+            <ul>
+                <li>Firmware is uploaded using the ST-Link V2 programmer and the SWO port on the main control board.</li>
+                <li>All firmware can be found in the "Firmware" directory of the project repository.</li>
+                <li>The IMU interface is specifically optimized without libraries to reduce latency and improve responsiveness.</li>
+                <li>Position and yaw estimates are made using the onboard GPS module.</li>
+                <li>Low-altitude odometry is provided by the optical flow sensor.</li>
+                <li>Altitude estimation is achieved through a fusion of barometer, ToF (if in range), and IMU data.</li>
+                <li>Pitch and roll measurements are derived from a fusion of the dual-IMU data.</li>
+                <li>Position hold functionality is enabled through a combination of GPS and optical flow sensor data.</li>
+                <li>Based on roll, pitch, and controller data, the flight controller adjusts the motor outputs using PID control algorithms.</li>
+                <li>Return-To-Home pathing is based on GPS coordinates and altitude data by lifting up 50 feet, using
+                    two GPS measurements to determine the angle to the home point, and flying in that direction until the home point is reached
+                    with a distance of less than 5 meters.</li>
+                <li>When auto-land is triggered, the drone descends at a controlled rate determined by altitude data until the ToF sensors
+                    detects an obstacle withint 0.5 meters, at which the motors are disarmed.</li>
+                <li>Sensor data is collected at the update rate set by the user and logged to the SD card.</li>
+            </ul>
+        </section>
+
+        <section class="spaced-paragraphs">
+            <h2>Maintenance & Updates</h2>
+            <p>Keep the current firmware updated and review logs after each flight to ensure correct sensor calibration.</p>
+            <p>Keep the battery at a healthy voltage during storage (depends on battery type) and above 10.8V during operation.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Real-Time Recording Drone Project</p>
+    </footer>
+</body>
+</html>

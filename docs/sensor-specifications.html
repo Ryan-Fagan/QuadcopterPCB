@@ -15,7 +15,7 @@
         <nav>
             <a href="index.html">Home</a>
             <a href="user-manual.html">User Manual</a>
-            <a href="full-documentation.html">Full Documentation</a>
+            <a href="overview.html">PCB Overview</a>
             <a href="architecture-reference.html">Architecture Reference</a>
             <a href="troubleshooting.html">Troubleshooting</a>
         </nav>
@@ -64,6 +64,10 @@
                         <td>2</td>
                     </tr>
                     <tr>
+                        <td>USB</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
                         <td>Digital</td>
                         <td>32</td>
                     </tr>
@@ -82,7 +86,8 @@
                     The same goes with SPI ports 1, 2, and 3 as they are being used for the dual IMU system, a low-speed sensor cluster of the barometer
                     and ToF sensors, and the SD-Micro port, respectively. Though these ports can be chained, port 1 requires high speed in order
                     for the drone to operate effectively and port 2 requires a stable flow of data to not miss any sensor logging data. The remaining ports
-                    are all open for use, but it's recommended to avoid chaining sensors such that the data rate of the bus is too high and causes data loss.<br><br>
+                    are all open for use, but it's recommended to avoid chaining sensors such that the data rate of the bus is too high and causes data loss.
+                    The USB-OTG interface is only configured as a device and can be used to read sensor data with an external host.<br><br>
                     Extra GPIO ports are available for use as chip select pins for SPI sensors or other applications, but they are not required for sensor
                     integration as each SPI port has a dedicated chip select pin. Analog pins are set up with a 12-bit ADC and support a voltage range of 
                     0-3.3V and are used with the weak internal pull-up resistors in the MCU. Digital pins may be used for simple digital sensors, but they 
@@ -187,8 +192,8 @@ FIELD:Is_Raining,UINT8,1.0
                 <p>If a sensor fails initialization, the SD Debug LED will indicate an error by blinking once every 5 seconds.</p>
                 <p>Once collection has started, use the ground control software to monitor and analyze the collected data.</p>
                 <p>After analysis, ensure the readings are correct before deploying the drone.</p>
-                <p>After flight, all of the sensor logs can be found in the SD card's log directory at "date_time.svg"</p>
-                <p>&nbsp;&nbsp;&nbsp;&nbsp;For example, "22_05_26_17_45_00.svg" for a flight on May 22nd, 2026 at 5:45PM</p>
+                <p>After flight, all of the sensor logs can be found in the SD card's log directory at "date_time.csv"</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;For example, "22_05_26_17_45_00.csv" for a flight on May 22nd, 2026 at 5:45PM</p>
                 <p>These logs can then be offloaded into a more permanent storage for further analysis.</p>
             </ul>
         </section>
